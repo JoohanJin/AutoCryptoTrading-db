@@ -1,3 +1,3 @@
 FROM timescale/timescaledb:latest-pg15
 
-COPY init/ /docker-entrypoint-initdb.d/
+COPY ddl/ /docker-entrypoint-initdb.d/
